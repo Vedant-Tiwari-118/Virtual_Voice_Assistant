@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+*{
+margin: 0;    
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+#logo{
+    width: 20vw;
+}
+h1{
+    color: aliceblue;
+    font-family: "Sigmar", serif;
+
+}
+#heading{
+    font-size: 50px;
+}
+#va{
+    color: green;
+}
+#voice{
+    
+    width: 200px;
+    display: none;
+}
+#btn{
+    width: 30%;
+    background: linear-gradient(to right,rgb(21,145,207),rgb(132, 41, 201));
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(21,145,207), 2px 2px 10px rgb(132, 41, 201);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#mic{
+    width: 10%;
+}
+#btn:hover{
+    box-shadow: 2px 2px 10px rgb(21,145,207), 2px 2px 10px rgb(132, 41, 201);
+    letter-spacing: 5px;
+
+}
